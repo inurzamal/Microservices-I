@@ -22,7 +22,7 @@ public class MyPreFilter implements GlobalFilter {
 	@Override
 	public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
 
-		logger.info("MyPreFilter :: filter () method executed...");
+		logger.info("MyPreFilter :: filter () method executed..");
 
 		// Accessing HTTP Request information
 		ServerHttpRequest request = exchange.getRequest();
